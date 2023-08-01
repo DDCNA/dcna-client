@@ -57,7 +57,8 @@ const AuthLogin = () => {
                 event,
                 {
                     headers: {
-                        'content-type': 'application/json'
+                        'content-type': 'application/json',
+                        'access-control-allow-origin': '*'
                     }
                 }
             )
